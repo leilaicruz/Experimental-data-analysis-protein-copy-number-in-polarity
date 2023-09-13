@@ -38,7 +38,7 @@ data = pd.read_excel("DATA", sheet_name="Cell death ratio")
 
 # +
 dbem1 = data[data["Strain"] == "dbem1"]
-dbem1dbem3 = data[data["Strain"] == "dbem1dbem3"]
+dbem1dbem3 = data[data["Strain"] == "bem1-3d"]
 wg = data[data["Strain"] == "WT-pgal"]
 
 dbem1_mean = dbem1.groupby(["Condition"]).mean().loc[:, "Ratio dead"]

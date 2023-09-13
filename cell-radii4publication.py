@@ -38,7 +38,7 @@ data=pd.read_excel('DATA',sheet_name='Cell radii')
 data_bem1_all=data[data['strain']=='bem1d']
 data_bem13_all=data[data['strain']=='bem1-3d']
 data_wt_all=data[data['strain']=='WT']
-data_wtg_all=data[data['strain']=='WT+Gal']
+data_wtg_all=data[data['strain']=='WT-pgal']
 
 
 # +
